@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+}
+.overall {
+width: 50%;
+margin: auto;
+position: relative;
+margin-top: 100px;
+}
+.box1 {
+    background-color:hsl(31, 77%, 52%);
+    position: absolute;
+    width: 200px;
+    text-align: left;
+    padding: 20px;
+}
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    position: absolute;
+    left: 240px;
+    width: 200px;
+    text-align: left;
+    padding: 20px;
+}
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    position: absolute;
+    left: 480px;
+    width: 200px;
+    text-align: left;
+    padding: 20px;
+}
+img {
+    margin-top: 30px;
+}
+h1 {
+    margin-top: 30px;
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulder Display", sans-serif;
+    font-weight: 700;
+    }
+p {
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    
+}
+.btn1 {
+    margin: 50px 0 30px 0;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.btn2 {
+    margin: 50px 0 30px 0;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.btn3 {
+    margin: 50px 0 30px 0;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.btn1:hover {
+    background-color:hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    
+}
+.btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+
+}
+.btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+
+}
